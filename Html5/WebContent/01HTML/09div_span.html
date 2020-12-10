@@ -1,0 +1,39 @@
+<!--
+
+■ 공간분할 Tag : 화면에 표시된 내용을 분할하여 레이아웃, 디자인 등 처리
+
+    1. <div> Tag : Book 형식의 공간 분할 / 블럭을 쌓아올리는 형태
+
+    2. <span> Tag : InLine 형식의 공간 분할 / 한줄에 차례로 줄을 세우는 형태
+
+-->
+<!DOCTYPE html>
+
+<html lang = "ko">
+
+ <head>
+  <meta charset = "EUC-KR">
+  <title> 09div_span.html </title>
+ </head>
+
+ <body>
+
+	<!-- 출력결과만 확인 Attribute style : 화면을 꾸미는(?, Design) 속성 -->
+	<div style = "background: red">Block A</div>
+	<div style = "background: green">Block B</div>
+	<div style = "background: yellow">Block C</div>
+
+	<span style = "background: red">Inline A</span>
+	<span style = "background: green">Inline B</span>
+	<span style = "background: yellow">Inline C</span>
+
+	<!-- 
+		o div : Block 형식 공간분할
+		o span : Inline 형식 공간분할
+		==> 각종 Tag를 Block/Inline 형식 Tag로 분류하면...
+		o Block 형식 Tag : div, h1~h6, p, olm ul, li, table, form
+		o Inline 형식 Tag : span, a, input 등...
+	-->
+  
+ </body>
+</html>
